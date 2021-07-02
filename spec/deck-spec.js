@@ -44,15 +44,5 @@ describe("Class functions.", () => {
 
       expect(deck.playerHand.length).toEqual(5);
     });
-    // it("Should deal 4 cards to the player.", () => {
-    //   const deck = new Deck();
-    //   if ((deck.handSize = 4)) {
-    //     spyOn(deck, "deal").and.returnValues(["3c", "8s", "Ah", "Qc"]);
-    //   }
-
-    //   const result = deck.deal();
-
-    //   expect(result).toEqual(["3c", "8s", "Ah", "Qc"]);
-    // });
   });
 });
